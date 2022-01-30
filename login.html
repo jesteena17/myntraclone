@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+ 
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+
+<style>
+
+:root{
+  --width: calc( (100vw - 320px) * (-320) );
+  font-size: 14px;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  overflow: hidden;
+
+  background: silver;
+  border: 1px gray solid;
+}
+
+.container .space{
+    flex: 9999 0 auto;
+    height: 0;
+}
+.container div:not(.space){
+  flex: 1 0 var(--width);
+  text-align: center;
+  min-width: fit-content;
+  max-width: 100%;
+  
+  padding: 10px;
+}
+
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 400;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-bottom:200px;
+}
+
+
+ 
+
+.formse
+{
+  display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    padding-bottom: 40px;
+
+}
+.formse img{
+  margin-top: 0px !important;
+    width: 400px;
+    padding: 0px;
+}
+.formse h2 {
+  color: black;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+.formse form{
+  width: 100%;
+}
+
+
+.formse  .inputBx {
+  position: relative;
+
+  margin-left: 20px; 
+  margin-right:20px;
+  margin-top:15px;
+}
+.formse .inputBx input[type="text"]  {
+  
+  outline: none;
+  border: 1px solid silver;
+    padding: 12px 10px;
+    padding-left: 40px;
+    /* border-radius: 15px; */
+    color: silver;
+    font-size: 16px;
+    width: 100%;
+}
+
+.formse   .inputBx input[type="text"]::placeholder  {
+  color: #fff;
+}
+
+.formse  .inputBx span {
+  position: absolute;
+  left: 5px;
+  top:-9px;
+  margin:22px;
+  display: inline-block;
+  color: silver;
+  transition: 0.5s;
+ font-size:10pt;
+  
+}
+
+.formse .inputBx  .s1{
+  position: absolute;
+    left: -4px;
+    /* top: -9px; */
+    margin: 5px;
+    display: inline-block;
+    color: silver;
+    transition: 0.5s;
+    font-size: 11pt;
+}
+
+.formse .inputBx  .s1 a{
+  color:#ff3f6c;
+  font-weight: 700;
+}
+
+
+.formse  .inputBx input[type="text"]:focus ~ span, 
+.formse  .inputBx input[type="text"]:valid ~ span {
+  transform: translateX(-5px) translateY(-19px);
+  background-color:white;
+  
+}
+.formse  .inputBx input[type="text"]:focus, 
+.formse  .inputBx input[type="text"]:valid  {
+ 
+  border:1px solid black;
+ 
+}
+
+
+
+    input[type="submit"] {
+      color: white;
+    cursor: pointer;
+    background-color: #ff3f6c;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 45px;
+
+    text-align: center;
+    padding: 12px;
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    }
+   
+body{
+    background: linear-gradient(to bottom right,#feedf6,#fcf0e2);
+}
+</style>
+
+
+</head>
+
+<body>
+  <header>
+ 
+ 
+  
+    <h1 class="logo"><img style="width:47px;height:36px" src="./assets/m.png"/></h1>
+    
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    
+     
+    
+      <ul >
+        <ul>
+          <li class="dropdown-content1 dropdown-content">
+            <a href="">MEN</a>
+          </li>
+          <li class="dropdown-content2 dropdown-content">
+            <a href="">WOMEN</a>
+          </li>
+          <li class="dropdown-content3 dropdown-content">
+            <a href="">KIDS</a>
+          </li>
+          <li class="dropdown-content4 dropdown-content">
+            <a href="">HOME & LIVING</a>
+          </li>
+          <li class="dropdown-content5 dropdown-content">
+            <a href="">BEAUTY</a>
+          </li>
+          <li class="dropdown-content6 dropdown-content">
+            <a href="">STUDIO</a>
+          </li>
+        </ul>
+      </ul>
+    </nav>
+    <div class="search">
+     
+         <div class="icon"><img
+           id="searchpng"
+           width="10px" height="10px"
+           src="https://image.flaticon.com/icons/png/128/49/49116.png"
+           alt=""
+         />
+  </div> 
+  
+         <input
+           type="text"
+           placeholder="Search for products, brands and more"
+         />
+  
+       </div>
+       <div class="threeicons">
+        <div class="i1">
+          <a href="">
+            <img
+              id="imicon1"
+              src="https://www.svgrepo.com/show/198180/user-profile.svg"
+              alt=""
+            />
+          </a>
+  
+          <div class="t1">Profile</div>
+        </div>
+  
+        <div class="i1"> 
+          <a href="">
+            <img
+              id="imicon2"
+              src="https://www.svgrepo.com/show/14970/heart.svg"
+              alt=""
+            />
+          </a>
+  
+          <div class="t2">Wishlist</div>
+        </div>
+  
+        <div class="i1">
+          <a href="">
+            <img
+              id="imicon3"
+              src="https://www.svgrepo.com/show/17522/bag.svg"
+              alt=""
+            />
+          </a>
+  
+          <div class="t3">Bag</div>
+        </div>
+      </div>
+   
+  </header>
+
+
+
+<div class='cont'>
+  
+    <div class="formse">
+      
+    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2022/1/14/d63fc446-4087-4e07-b2dd-1d060368d2661642184399341-Banner_Login-page-400.png"/>
+  
+      <form>
+        <h2>Login or Signup</h2>
+       <div class="inputBx">
+          <input type="text" name="car_variant"  required="required" class="s_variant">
+          <span>Username *</span>
+          <i class="fas fa-car-side"></i>
+        </div>
+       <div class="inputBx">
+          <input type="text" name="color" required="required" class="s_color">
+          <span>Password *</span>
+        <i class="fas fa-swatchbook"></i>
+        
+        </div>
+        
+        <div class="inputBx">
+          <span class="s1">By continuing, I agree to the <a href="/termsofuse">Terms of Use</a>
+            &amp; <a href="/privacypolicy">Privacy Policy</a></span>
+        </div>
+
+       <div class="inputBx">
+  
+          <input type="submit" value="CONTINUE" name="color" required="required" class="s_color">
+         
+        </div>
+      
+      </form>
+        
+    </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
