@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <title>Admin Portal</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reg.css" />
+    <link rel="stylesheet" href="./assets/css/home.css">
+   
+   </head>
+<body>
+  <header>
+ 
+    <a href="#main-menu"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-label="Open main menu">
+      <span class="sr-only">Open main menu</span>
+      <span class="fa fa-bars" aria-hidden="true"></span>
+    </a>
+    
+    <h1 class="logo"><img style="width:47px;height:36px" src="./assets/m.png"/></h1>
+    
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    
+      <a href="#main-menu-toggle"
+         id="main-menu-close"
+         class="menu-close"
+         aria-label="Close main menu">
+        <span class="sr-only">Close main menu</span>
+        <span class="fa fa-close" aria-hidden="true"></span>
+      </a>
+    
+      <h2 id="main-menu-heading" class="sr-only">Main menu</h2>
+      <ul aria-labelledby="main-menu-heading">
+        <ul>
+          <li class="dropdown-content1 dropdown-content">
+            <a href="">MEN</a>
+          </li>
+          <li class="dropdown-content2 dropdown-content">
+            <a href="">WOMEN</a>
+          </li>
+          <li class="dropdown-content3 dropdown-content">
+            <a href="">KIDS</a>
+          </li>
+          <li class="dropdown-content4 dropdown-content">
+            <a href="">HOME & LIVING</a>
+          </li>
+          <li class="dropdown-content5 dropdown-content">
+            <a href="">BEAUTY</a>
+          </li>
+        </ul>
+      </ul>
+    </nav>
+   
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+  </header>
+
+
+      <form class="login-form"> 
+        <div class="input-group span-2">
+          <label class="input-label">Email</label>
+          <input type="text" name="email" class="input-text" />
+        </div>
+        <div class="input-group span-2">
+          <label class="input-label1">Password</label>
+          <input type="password" name="email" class="input-text" />
+        </div>
+        <div  class="input-group span-2" >
+          <button class="input-button" name="submit" id="submit">LOGIN</button>
+        </div>
+        
+     </form>
+  
+</body>
+</html>
