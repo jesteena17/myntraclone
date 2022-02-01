@@ -1,42 +1,36 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="robots" content="noindex">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    
-    <title>Admin Portal</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reg.css" />
-    <link rel="stylesheet" href="./assets/css/home.css">
-   
-   </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+ 
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+<link rel="stylesheet" href="./assets/css/reg.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+
+
+</style>
+
+</head>
+
 <body>
   <header>
  
-    <a href="#main-menu"
-       id="main-menu-toggle"
-       class="menu-toggle"
-       aria-label="Open main menu">
-      <span class="sr-only">Open main menu</span>
-      <span class="fa fa-bars" aria-hidden="true"></span>
-    </a>
-    
+ 
+  
     <h1 class="logo"><img style="width:47px;height:36px" src="./assets/m.png"/></h1>
     
     <nav id="main-menu" class="main-menu" aria-label="Main menu">
     
-      <a href="#main-menu-toggle"
-         id="main-menu-close"
-         class="menu-close"
-         aria-label="Close main menu">
-        <span class="sr-only">Close main menu</span>
-        <span class="fa fa-close" aria-hidden="true"></span>
-      </a>
+     
     
-      <h2 id="main-menu-heading" class="sr-only">Main menu</h2>
-      <ul aria-labelledby="main-menu-heading">
+      <ul >
         <ul>
           <li class="dropdown-content1 dropdown-content">
             <a href="">MEN</a>
@@ -53,31 +47,163 @@
           <li class="dropdown-content5 dropdown-content">
             <a href="">BEAUTY</a>
           </li>
+          <li class="dropdown-content6 dropdown-content">
+            <a href="">STUDIO</a>
+          </li>
         </ul>
       </ul>
     </nav>
+    <div class="search">
+     
+         <div class="icon"><img
+           id="searchpng"
+           width="10px" height="10px"
+           src="https://image.flaticon.com/icons/png/128/49/49116.png"
+           alt=""
+         />
+  </div> 
+  
+         <input
+           type="text"
+           placeholder="Search for products, brands and more"
+         />
+  
+       </div>
+       <div class="threeicons">
+        <div class="i1">
+          <a href="">
+            <img
+              id="imicon1"
+              src="https://www.svgrepo.com/show/198180/user-profile.svg"
+              alt=""
+            />
+          </a>
+  
+          <div class="t1">Profile</div>
+        </div>
+  
+        <div class="i1"> 
+          <a href="">
+            <img
+              id="imicon2"
+              src="https://www.svgrepo.com/show/14970/heart.svg"
+              alt=""
+            />
+          </a>
+  
+          <div class="t2">Wishlist</div>
+        </div>
+  
+        <div class="i1">
+          <a href="">
+            <img
+              id="imicon3"
+              src="https://www.svgrepo.com/show/17522/bag.svg"
+              alt=""
+            />
+          </a>
+  
+          <div class="t3">Bag</div>
+        </div>
+      </div>
    
-    <a href="#main-menu-toggle"
-       class="backdrop"
-       tabindex="-1"
-       aria-hidden="true" hidden></a>
   </header>
 
 
-      <form class="login-form"> 
-        <div class="input-group span-2">
-          <label class="input-label">Email</label>
-          <input type="text" name="email" class="input-text" />
+
+<div class='cont'>
+  
+    <div class="formse">
+      
+  
+      <form>
+        <h2>Complete Your Signup</h2>
+        <div style="margin:20px;display: flex;background-color: white;justify-content: space-between;">
+        <span style="display: inline-grid !important;">
+<span style="color:rgb(156, 151, 151);font-weight: 100;font-size:9pt">Mobile Number</span>
+<span style="color:#424553;font-weight: 100;font-size:11pt">9897867564</span>
+
+        </span>
+         <span><i class="material-icons" style="font-size:12pt;color:#03a685">verified</i></span>
         </div>
-        <div class="input-group span-2">
-          <label class="input-label1">Password</label>
-          <input type="password" name="email" class="input-text" />
+
+        <div class="inputBx">
+          <input type="text" required="required" >
+          <span>Create Password *</span>
+       
+       
         </div>
-        <div  class="input-group span-2" >
-          <button class="input-button" name="submit" id="submit">LOGIN</button>
+        <div class="pwd">
+          <span class="sp">8 Characters</span>
+          <span class="sp">1 Special</span>
+          <span class="sp">1 Uppercase</span>
+          <span class="sp">1 Numeric</span>
+        </div>
+       <div class="inputBx">
+          <input type="text"   required="required" >
+          <span>Full Name</span>
+         
+        </div>
+        <div class="inputBx" style="margin-top: 25px;">
+          <input type="text"   required="required" >
+          <span>Email (Optional)</span>
+         
         </div>
         
-     </form>
+        <div class="inputBx">
+          <label class="gen">Select Gender:</label>
+          
+      <div class="radio-item">
+          <input type="radio" id="ritema" name="ritem" value="ropt1">
+          <label for="ritema">Female</label>
+      </div>
+      
+      <div class="radio-item">
+          <input type="radio" id="ritemb" name="ritem" value="ropt2">
+          <label for="ritemb">Male</label>
+      </div>
+      </div>
+      
+      <div class="inputBx">
+        <input type="text" placeholder="hi"  required="required" >
+        <span>+91 | </span>
+        <span style="padding-left: 40px;">Alternative Mobile Number</span>
+       
+      </div>
+      <div class="pwd">
+        <span class="sp2">This will help recover your account if needed</span>
+        
+      </div>
+
+
+      <div class="inputBx">
+        <input type="text" placeholder="hi"  required="required" >
+       
+        <span >Hint Name (Alternative  Number)</span>
+       
+      </div>
+      <div class="pwd">
+        <span class="sp3">This name will be a hint for your alternative number</span>
+        
+      </div>
+
+
+
+       <div class="inputBx" style="margin-top: -15px;">
   
+          <input type="submit" value="CONTINUE" name="color" required="required" class="s_color">
+         
+        </div>
+      
+      </form>
+        
+    </div>
+    </div>
+
+
+
+
+
+
 </body>
 </html>
