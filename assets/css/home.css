@@ -232,7 +232,7 @@ header {
   width: 100%;
   background-image: -webkit-gradient(linear,left top,right top,from(#f9f9ff),to(#dee8ff));
   background-image: linear-gradient(90deg,#f9f9ff,#dee8ff);
-  margin: 82px auto;
+  margin: 85px auto;
   height: 55px;
   display: flex;
   align-items: center;
