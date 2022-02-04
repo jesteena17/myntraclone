@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Rectangle Copy 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="22" rx="2"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-10">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="upi-ar21" mask="url(#mask-2)">
+                <g transform="translate(5.000000, 8.000000)">
+                    <polygon id="Path" fill="#097939" points="18.84916 5.918 22 3.0437 20.50752 0.07018"></polygon>
+                    <polygon id="Path" fill="#ED752E" points="17.78788 5.918 20.93872 3.0437 19.44624 0.07018"></polygon>
+                    <path d="M2.7302,0.1034 L1.4036,4.8279 L6.11314,4.8609 L7.40674,0.1034 L8.60068,0.1034 L7.04968,5.6342 C6.99028,5.8454 6.76412,6.017 6.54478,6.017 L0.5082,6.017 C0.14212,6.017 -0.0748,5.731 0.0242,5.379 L1.50348,0.1034 L2.7302,0.1034 Z M17.29024,0.0704 L18.48418,0.0704 L16.82582,6.017 L15.59822,6.017 L17.29024,0.0704 Z M8.73356,2.54804 L14.70348,2.51504 L15.10168,1.2595 L9.03188,1.2595 L9.39664,0.10318 L15.86464,0.043746697 C16.26724,0.04004 16.50704,0.35178 16.401,0.74052 L15.7916,2.9678 C15.68534,3.35632 15.2724,3.67114 14.8698,3.67114 L9.52952,3.67114 L8.89988,6.116 L7.73828,6.116 L8.73356,2.54804 Z" id="Shape" fill="#747474"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

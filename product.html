@@ -1,831 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="myntra.ico" type="image/x-icon">
     <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
-
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/product.css">
-
-    <style>
-
-    </style>
-</head>
-
-<body>
-
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="./css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/product.css">
+  </head>
+  <body>
     <header>
-
-
-
-        <h1 class="logo">
-            <a href="index.html">
-                <img style="width:47px;height:36px" src="./assets/m.png" />
-            </a>
-
-        </h1>
-
-        <nav id="main-menu" class="main-menu" aria-label="Main menu">
-
-
-
-            <ul>
-                <ul>
-                    <li class="dropdown-content1 dropdown-content">
-                        <a href="index.html">HOME</a>
-                    </li>
-                    <li class="dropdown-content2 dropdown-content">
-                        <a href="register.html">REG</a>
-                    </li>
-                    <li class="dropdown-content3 dropdown-content">
-                        <a href="login.html">LOGIN</a>
-                    </li>
-                    <li class="dropdown-content4 dropdown-content">
-                        <a href="product.html">PRODUCTS</a>
-                    </li>
-                    <li class="dropdown-content5 dropdown-content">
-                        <a href="cart.html">CART</a>
-                    </li>
-                    <li class="dropdown-content6 dropdown-content">
-                        <a href="checkout.html">CHEKOUT</a>
-                    </li>
-                    <li class="dropdown-content6 dropdown-content">
-                        <a href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </ul>
-        </nav>
-        <div class="search">
-
-            <div class="icon"><img id="searchpng" width="10px" height="10px"
-                    src="https://image.flaticon.com/icons/png/128/49/49116.png" alt="" />
-            </div>
-
-            <input type="text" placeholder="Search for products, brands and more" />
-
+      <div class="logo">
+        <a href="index.html">
+        <img class="imglg" alt="logo" src="./images/m.png" />
+        </a>
+      </div>
+      <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <div>
+        <ul>
+          <li class="dropdown-content1 dropdown-content">
+          <a href="index.html">HOME</a>
+          </li>
+          <li class="dropdown-content2 dropdown-content">
+          <a href="register.html">REG</a>
+          </li>
+          <li class="dropdown-content3 dropdown-content">
+          <a href="login.html">LOGIN</a>
+          </li>
+          <li class="dropdown-content4 dropdown-content">
+          <a href="product.html">PRODUCTS</a>
+          </li>
+          <li class="dropdown-content5 dropdown-content">
+          <a href="cart.html">CART</a>
+          </li>
+          <li class="dropdown-content6 dropdown-content">
+          <a href="checkout.html">CHEKOUT</a>
+          </li>
+          <li class="dropdown-content6 dropdown-content">
+          <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
         </div>
-        <div class="threeicons">
-            <div class="i1">
-                <a href="">
-                    <img id="imicon1" src="https://www.svgrepo.com/show/198180/user-profile.svg" alt="" />
-                </a>
-
-                <div class="t1">Profile</div>
-            </div>
-
-            <div class="i1">
-                <a href="">
-                    <img id="imicon2" src="https://www.svgrepo.com/show/14970/heart.svg" alt="" />
-                </a>
-
-                <div class="t2">Wishlist</div>
-            </div>
-
-            <div class="i1">
-                <a href="">
-                    <img id="imicon3" src="https://www.svgrepo.com/show/17522/bag.svg" alt="" />
-                </a>
-
-                <div class="t3">Bag</div>
-            </div>
+      </nav>
+      <div class="search">
+        <div class="icon">
+        <img id="searchpng" width="10" height="10" src="./images/search.png" alt="" />
         </div>
-
-    </header>
-
+        <input type="text" placeholder="Search for products, brands and more" />
+      </div>
+      <div class="threeicons">
+        <div class="i1">
+        <a href="">
+          <img id="imicon1" width="10" height="10" src="./images/user-profile.svg" alt="" />
+        </a>
+        <div class="t1">Profile</div>
+        </div>
+        <div class="i1">
+        <a href="">
+          <img id="imicon2" src="./images/heart.svg" alt="" />
+        </a>
+        <div class="t2">Wishlist</div>
+        </div>
+        <div class="i1">
+        <a href="">
+          <img id="imicon3" src="./images/bag.svg" alt="" />
+        </a>
+        <div class="t3">Bag</div>
+        </div>
+      </div>
+      </header>
     <div class="timerpos"> timer</div>
-
-
-
-
-
-
     <div class="product">
-
-        <div class="wrapper">
-            <div class=" header">
-
-                <div class="toptitl1" style="padding:10px">Home / <span>Casual Shirts For Men</span></div>
-                <div class="toptitl2" style="padding:10px">
-                    <span class="toptitl3"> Casual Shirts For Men </span> <span style="color:silver"> - 1000
-                        items</span>
-                </div>
-                <div class="topfilter">
-                    <div class="leftfilter">
-                        <span>
-                            FILTERS
-                        </span>
-                    </div>
-                    <div class="middlefilter">
-                        <span>Bundles<i class="a1 fa fa-angle-down"></i></span>
-                        <span>Country of Origin<i class="a1 fa fa-angle-down"></i></span>
-                        <span>Size<i class="a1 fa fa-angle-down"></i></span>
-                    </div>
-                    <div class="rightfilter">
-                        <span>
-                            <select name="" id="">
-                                <option>Sort By :Recomended</option>
-                                <option>Sort By :Price</option>
-                                <option>Sort By :Latest</option>
-                            </select>
-
-                        </span>
-                    </div>
-
-                </div>
-
+      <div class="wrapper">
+        <div class=" header">
+          <div class="toptitl1">Home / <span>Casual Shirts For Men</span>
+          </div>
+          <div class="toptitl2" >
+            <span class="toptitl3"> Casual Shirts For Men </span>
+            <span class="silver"> - 1000 items</span>
+          </div>
+          <div class="topfilter">
+            <div class="leftfilter">
+              <span> FILTERS </span>
             </div>
-
-
-
-
-
-
-
-
-            <div class="box sidebar">
-
-
-                <div class="filterbody">
-
-
-
-                    <div class="filtercat">
-                        <p class="fiterheading">CATEGORIES</p>
-                        <div class="filtercontent">
-                            <input type="checkbox" id="tshirts" value="tshirts" checked="checked" /><span
-                                class="cb"></span>
-                            <label for="tshirts">TShirts</label><br />
-                            <input type="checkbox" id="lounge" value="lounge" />
-                            <label for="Lounge">Lounge TShirts</label><br />
-
-
-                        </div>
-                    </div>
-
-
-
-
-
-                    <div class="filtercat">
-                        <p class="fiterheading">Brand</p>
-                        <div class="filtercontent">
-                            <input type="checkbox" id="Sweet Dreams" value="Sweet Dreams" />
-                            <label for="Sweet Dreams">Sweet Dreams<span class="filtercount">(175)</span></label><br />
-                            <input type="checkbox" id="U.S. Polo Assn." value="U.S. Polo Assn." />
-                            <label for="U.S. Polo Assn.">U.S. Polo Assn.<span class="filtercount">(120)</span>
-                            </label><br />
-
-                            <input type="checkbox" id="Jockey" value="Jockey" />
-                            <label for="Jockey">Jockey<span class="filtercount">(120)</span></label><br />
-                            <input type="checkbox" id="QUARANTINE" value="QUARANTINE" />
-                            <label for="QUARANTINE">QUARANTINE<span class="filtercount">(120)</span></label><br />
-                            <input type="checkbox" id="Jack & Jones" value="Jack & Jones" />
-                            <label for="Jack & Jones">Jack & Jones<span class="filtercount">(120)</span></label><br />
-
-                            <input type="checkbox" id="DAMENSCH" value="DAMENSCH" />
-                            <label for="DAMENSCH">DAMENSCH<span class="filtercount">(120)</span></label><br />
-
-                        </div>
-                        <span class="bmore"> + 20 More</span>
-                    </div>
-
-
-                    <div class="filtercat">
-                        <p class="fiterheading">Price</p>
-                        <div class="filtercontent">
-                            <input type="checkbox" value="399" />
-                            <label for="500">Rs.399 to Rs.530<span class="filtercount">(12)</span></label><br />
-
-                            <input type="checkbox" value="1000" />
-                            <label for="1000">Rs.530 to Rs.661<span class="filtercount">(120)</span></label><br />
-                            <input type="checkbox" value="1500" />
-                            <label for="1500">Rs.661 to Rs.792<span class="filtercount">(120)</span></label><br />
-                            <input type="checkbox" value="2000" />
-                            <label for="2000">Rs.792 to Rs.923<span class="filtercount">(120)</span></label><br />
-
-                        </div>
-                    </div>
-
-                    <div class="filtercat">
-                        <p class="fiterheading">Color</p>
-                        <div class="filtercontent">
-                            <input type="checkbox" id="red" value="red" />
-                            <label for="red">
-                                <span class="color"></span>
-                                Red</label><br />
-
-                            <input type="checkbox" id="yellowgreen" value="yellowgreen" />
-                            <label for="yellowgreen"><span class="color" style="background-color: yellowgreen"></span>
-                                Yellowgreen</label><br />
-                            <input type="checkbox" id="white" value="white" />
-                            <label for="white"><span class="color" style="background-color: white"></span>
-                                White</label><br />
-                            <input type="checkbox" id="orangered" value="orangered" />
-                            <label for="orangered"><span class="color" style="background-color: orangered"></span>
-                                Orangered</label><br />
-
-                            <input type="checkbox" id="navy" value="navy" />
-                            <label for="navy"><span class="color" style="background-color: navy"></span>
-                                Navy</label><br />
-
-                            <input type="checkbox" id="black" value="black" />
-                            <label for="black"><span class="color" style="background-color: black"></span>
-                                Black</label><br />
-
-
-                        </div>
-                        <span class="bmore"> + 15 More</span>
-                    </div>
-
-
-
-                    <div class="filtercat">
-                        <p class="fiterheading">DISCOUNT RANGE</p>
-                        <div class="filtercontent">
-                            <input type="radio" id="10%" value="10%" />
-                            <label for="10%">10% and Above</label><br />
-                            <input type="radio" id="20%" value="20%" />
-                            <label for="20%">20% and Above</label><br />
-
-                            <input type="radio" id="30%" value="30%" />
-                            <label for="30%">30% and Above</label><br />
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-
-
-
-
-
-
-
+            <div class="middlefilter">
+              <span>Bundles <i class="a1 fa fa-angle-down"></i>
+              </span>
+              <span>Country of Origin <i class="a1 fa fa-angle-down"></i>
+              </span>
+              <span>Size <i class="a1 fa fa-angle-down"></i>
+              </span>
             </div>
-
-
-
-
-
-            <div class="box content">
-
-                <div class="grid-container">
-                    <div class="hoverme">
-
-                        <a href="./detail.html">
-
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-
-
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-                    <div class="hoverme">
-                        <a href="./detail.html">
-                            <img
-                                src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15551432/2021/10/22/ccfd2406-2b94-4a61-a81a-fed172b73b451634902679820-US-Polo-Assn-Men-Tshirts-7001634902679230-1.jpg" />
-                        </a>
-                        <div class="prating"><span>4.2</span> <svg width="255" height="240" viewBox="0 0 51 48">
-                                <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-                            </svg>&nbsp;|&nbsp;29</div>
-                        <div class="pinfo">
-                            <div class="pname">Nautica</div>
-                            <div class="pdesc">Colourblocked Padded Jacket</div>
-                            <div class="pprice">Rs. 4499 <small style="color:silver"><del>Rs. 9999</del></small>
-                                <span style="color:orange">(55% OFF)</span>
-                            </div>
-                        </div>
-                        <span class="tooltip span1">
-                            <div class="wishbox">
-                                <i class="fa fa-heart"></i> &nbsp;&nbsp;<span>WISHLIST</span>
-                            </div>
-                            <div class="sizes">Sizes:S,M,L,XL</div>
-
-                        </span>
-                    </div>
-
-
-
-
-
-
-
-
-
-                </div>
-
+            <div class="rightfilter">
+              <span>
+                <select >
+                  <option>Sort By :Recomended</option>
+                  <option>Sort By :Price</option>
+                  <option>Sort By :Latest</option>
+                </select>
+              </span>
             </div>
-
+          </div>
         </div>
-
+        <div class="box sidebar">
+          <div class="filterbody">
+            <div class="filtercat">
+              <p class="fiterheading">CATEGORIES</p>
+              <div class="filtercontent">
+                <input type="checkbox" id="tshirts" value="tshirts" checked="checked" />
+                <span class="cb"></span>
+                <label for="tshirts">TShirts</label>
+                <br />
+                <input type="checkbox" id="lounge" value="lounge" />
+                <label for="lounge">Lounge TShirts</label>
+                <br />
+              </div>
+            </div>
+            <div class="filtercat">
+              <p class="fiterheading">Brand</p>
+              <div class="filtercontent">
+                <input type="checkbox" id="SweetDreams" value="Sweet Dreams" />
+                <label for="SweetDreams">Sweet Dreams <span class="filtercount">(175)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="U.S.PoloAssn." value="U.S. Polo Assn." />
+                <label for="U.S.PoloAssn.">U.S. Polo Assn. <span class="filtercount">(120)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="Jockey" value="Jockey" />
+                <label for="Jockey">Jockey <span class="filtercount">(120)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="QUARANTINE" value="QUARANTINE" />
+                <label for="QUARANTINE">QUARANTINE <span class="filtercount">(120)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="Jack&Jones" value="Jack & Jones" />
+                <label for="Jack&Jones">Jack & Jones <span class="filtercount">(120)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="DAMENSCH" value="DAMENSCH" />
+                <label for="DAMENSCH">DAMENSCH <span class="filtercount">(120)</span>
+                </label>
+                <br />
+              </div>
+              <span class="bmore"> + 20 More</span>
+            </div>
+            <div class="filtercat">
+              <p class="fiterheading">Price</p>
+              <div class="filtercontent">
+                <input type="checkbox" id="399" value="399" />
+                <label for="399">Rs.399 to Rs.530 <span class="filtercount">(12)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="1000" value="1000" />
+                <label for="1000">Rs.530 to Rs.661 <span class="filtercount">(120)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="1500" value="1500" />
+                <label for="1500">Rs.661 to Rs.792 <span class="filtercount">(120)</span>
+                </label>
+                <br />
+                <input type="checkbox" id="2000" value="2000" />
+                <label for="2000">Rs.792 to Rs.923 <span class="filtercount">(120)</span>
+                </label>
+                <br />
+              </div>
+            </div>
+            <div class="filtercat">
+              <p class="fiterheading">Color</p>
+              <div class="filtercontent">
+                <input type="checkbox" id="red" value="red" />
+                <label for="red">
+                  <span class="color"></span> Red </label>
+                <br />
+                <input type="checkbox" id="yellowgreen" value="yellowgreen" />
+                <label for="yellowgreen">
+                  <span class="color yg" ></span> Yellowgreen </label>
+                <br />
+                <input type="checkbox" id="white" value="white" />
+                <label for="white">
+                  <span class="color silver" ></span> White </label>
+                <br />
+                <input type="checkbox" id="orangered" value="orangered" />
+                <label for="orangered">
+                  <span class="color orange" ></span> Orangered </label>
+                <br />
+                <input type="checkbox" id="navy" value="navy" />
+                <label for="navy">
+                  <span class="color nv" ></span> Navy </label>
+                <br />
+                <input type="checkbox" id="black" value="black" />
+                <label for="black">
+                  <span class="color bk" ></span> Black </label>
+                <br />
+              </div>
+              <span class="bmore"> + 15 More</span>
+            </div>
+            <div class="filtercat">
+              <p class="fiterheading">DISCOUNT RANGE</p>
+              <div class="filtercontent">
+                <input type="radio" id="10%" value="10%" />
+                <label for="10%">10% and Above</label>
+                <br />
+                <input type="radio" id="20%" value="20%" />
+                <label for="20%">20% and Above</label>
+                <br />
+                <input type="radio" id="30%" value="30%" />
+                <label for="30%">30% and Above</label>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box content">
+          <div class="grid-container">
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+              </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+            </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img  alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+              </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+            <div class="hoverme">
+              <a href="./detail.html">
+                <img alt="" src="./images/tshirt.webp" />
+              </a>
+              <div class="prating">
+                <span>4.2</span>
+                <svg width="255" height="240" viewBox="0 0 51 48">
+                  <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
+                </svg>&nbsp;|&nbsp;29
+              </div>
+              <div class="pinfo">
+                <div class="pname">Nautica</div>
+                <div class="pdesc">Colourblocked Padded Jacket</div>
+                <div class="pprice">Rs. 4499 <small class="silver">
+                    <del>Rs. 9999</del>
+                  </small>
+                  <span class="orange">(55% OFF)</span>
+                </div>
+              </div>
+              <div class="tooltip span1">
+                <div class="wishbox">
+                  <i class="fa fa-heart"></i> &nbsp;&nbsp; <span>WISHLIST</span>
+                </div>
+                <div class="sizes">Sizes:S,M,L,XL</div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-
     <footer class="footer">
-
-        <div class="row">
-            <div class="col">
-                <h4>online shopping</h4>
-                <ul>
-                    <li><a href="#">men</a></li>
-                    <li><a href="#">women</a></li>
-                    <li><a href="#">Kids</a></li>
-                    <li><a href="#">Home & living</a></li>
-                    <li><a href="#">Beauty</a></li>
-                    <li><a href="#">gift cards</a></li>
-                    <li>
-                        <a href="#">myntra insider <span class="badge"><small>New</small></span> </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col">
-                <h4>useful links</h4>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">contact us</a></li>
-                    <li><a href="#">returns</a></li>
-                    <li><a href="#">track order</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <h4>experience myntra app on mobile</h4>
-                <a href=""><img
-                        src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
-                        alt="" /></a>
-                <a href=""><img
-                        src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
-                        alt="" /></a>
-                <h4>keep in touch</h4>
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="col-retn">
-                    <img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
-                        alt="" />
-                    <div>
-                        <strong>100% ORIGINAL</strong>
-
-                        <span>guarantee for all products at myntra.com</span>
-                    </div>
-                </div>
-
-                <div class="col-retn">
-                    <img src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
-                        alt="" />
-                    <div>
-                        <strong>Return within 30days</strong>
-                        <span>of receiving your order</span>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col">
+          <h4>ONLINE SHOPPING</h4>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li> <a href="#">myntra insider <span class="badge"><small>New</small></span> </a> </li>
+          </ul>
         </div>
-
+        <div class="col">
+          <h4>USEFUL LINKS</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">T&C</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Track Orders</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col1">
+          <h4>EXPERIENCE MYNTRA ON MOBILE APP</h4>
+          <a href=""><img src="./images/gp.png" alt="" /></a>
+          <a href=""><img src="./images/ps.png" alt="" /></a>
+          <h5>KEEP IN TOUCH</h5>
+          <div class="social-links"> 
+             <a href="#">
+              <i class="fab fa-facebook-square colr"></i>
+              </a>
+              <a href="#">
+              <i class="fab fa-twitter colr"></i>
+              </a>
+              <a href="#">
+              <i class="fab fa-instagram colr"></i>
+              </a>
+              <a href="#">
+              <i class="fab fa-youtube colr"></i>
+              </a>
+          </div>
+        </div>
+        <div class="col1">
+          <div class="col-retn"> <img src="./images/ori.png" alt="" />
+            <div class="thrdcol">
+              <div><b class="cr">100% ORIGINAL</b> guarantee</div>
+              <div> for all products at myntra.com </div>
+            </div>
+          </div>
+          <div class="col-retn"> <img src="./images/ret.png" alt="" />
+            <div>
+              <div><b class="cr">Return within 30days</b> of</div>
+              <div> receiving your order</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>

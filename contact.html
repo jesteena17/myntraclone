@@ -1,399 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="myntra.ico" type="image/x-icon">
     <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
-
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/contact.css">
-   
-</head>
-
-<body>
-
-
-
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="./css/all.css" rel="stylesheet">
+   <link href="./css/googleapisicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contact.css">
+  </head>
+  <body>
     <header>
- 
- 
-  
-        <h1 class="logo">
-        <a href="index.html">   
-            <img style="width:47px;height:36px" src="./assets/m.png"/>
-        </a> 
-        
-        </h1>
-        
-        <nav id="main-menu" class="main-menu" aria-label="Main menu">
-        
-         
-        
-          <ul >
-            <ul>
-              <li class="dropdown-content1 dropdown-content">
-                <a href="index.html">HOME</a>
-              </li>
-              <li class="dropdown-content2 dropdown-content">
-                <a href="register.html">REG</a>
-              </li>
-              <li class="dropdown-content3 dropdown-content">
-                <a href="login.html">LOGIN</a>
-              </li>
-              <li class="dropdown-content4 dropdown-content">
-                <a href="product.html">PRODUCTS</a>
-              </li>
-              <li class="dropdown-content5 dropdown-content">
-                <a href="cart.html">CART</a>
-              </li>
-              <li class="dropdown-content6 dropdown-content">
-                <a href="checkout.html">CHEKOUT</a>
-              </li>
-              <li class="dropdown-content6 dropdown-content">
-                <a href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-          </ul>
-        </nav>
-        <div class="search">
-         
-             <div class="icon"><img
-               id="searchpng"
-               width="10px" height="10px"
-               src="https://image.flaticon.com/icons/png/128/49/49116.png"
-               alt=""
-             />
-      </div> 
-      
-             <input
-               type="text"
-               placeholder="Search for products, brands and more"
-             />
-      
-           </div>
-           <div class="threeicons">
-            <div class="i1">
-              <a href="">
-                <img
-                  id="imicon1"
-                  src="https://www.svgrepo.com/show/198180/user-profile.svg"
-                  alt=""
-                />
-              </a>
-      
-              <div class="t1">Profile</div>
-            </div>
-      
-            <div class="i1"> 
-              <a href="">
-                <img
-                  id="imicon2"
-                  src="https://www.svgrepo.com/show/14970/heart.svg"
-                  alt=""
-                />
-              </a>
-      
-              <div class="t2">Wishlist</div>
-            </div>
-      
-            <div class="i1">
-              <a href="">
-                <img
-                  id="imicon3"
-                  src="https://www.svgrepo.com/show/17522/bag.svg"
-                  alt=""
-                />
-              </a>
-      
-              <div class="t3">Bag</div>
-            </div>
-          </div>
-       
+      <div class="logo">
+        <a href="index.html">
+        <img class="imglg" alt="logo" src="./images/m.png" />
+        </a>
+      </div>
+      <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <div>
+        <ul>
+          <li class="dropdown-content1 dropdown-content">
+          <a href="index.html">HOME</a>
+          </li>
+          <li class="dropdown-content2 dropdown-content">
+          <a href="register.html">REG</a>
+          </li>
+          <li class="dropdown-content3 dropdown-content">
+          <a href="login.html">LOGIN</a>
+          </li>
+          <li class="dropdown-content4 dropdown-content">
+          <a href="product.html">PRODUCTS</a>
+          </li>
+          <li class="dropdown-content5 dropdown-content">
+          <a href="cart.html">CART</a>
+          </li>
+          <li class="dropdown-content6 dropdown-content">
+          <a href="checkout.html">CHEKOUT</a>
+          </li>
+          <li class="dropdown-content6 dropdown-content">
+          <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+      <div class="search">
+        <div class="icon">
+        <img id="searchpng" width="10" height="10" src="./images/search.png" alt="" />
+        </div>
+        <input type="text" placeholder="Search for products, brands and more" />
+      </div>
+      <div class="threeicons">
+        <div class="i1">
+        <a href="">
+          <img id="imicon1" width="10" height="10" src="./images/user-profile.svg" alt="" />
+        </a>
+        <div class="t1">Profile</div>
+        </div>
+        <div class="i1">
+        <a href="">
+          <img id="imicon2" src="./images/heart.svg" alt="" />
+        </a>
+        <div class="t2">Wishlist</div>
+        </div>
+        <div class="i1">
+        <a href="">
+          <img id="imicon3" src="./images/bag.svg" alt="" />
+        </a>
+        <div class="t3">Bag</div>
+        </div>
+      </div>
       </header>
-
-
-
-
-
-
-
     <div id="grid">
-        <div id="helpcenter">
-            <div id="hc">
-                <span class="tt0">HELP CENTER</span>
-                <span class="tt20">We are here to help you</span>
-            </div>
-            <div id="track">
-                <div class="t1">
-                    <div style="padding:10px;">
-                        <span style="color:#929396;font-weight: 100;font-size:35pt " class="material-icons-outlined">
-                            shopping_bag
-                        </span>
-                    </div>
-                    <div id="tracktext">
-                        <span class="tt1">TRACK, CANCEL, RETURN/EXCHANGE</span>
-                        <span class="tt2">Manage your purchases</span>
-                    </div>
-                </div>
-                <div>
-                    <span><button class="trkbtn">ORDERS</button></span>
-                </div>
-
-            </div>
+      <div id="helpcenter">
+        <div id="hc">
+          <span class="tt0">HELP CENTER</span>
+          <span class="tt20">We are here to help you</span>
         </div>
-
-        <div class="hr"></div>
+        <div id="track">
+          <div class="t1">
+            <div class="divpad">
+              <span  class="material-icons-outlined sb"> shopping_bag </span>
+            </div>
+            <div class="tracktext">
+              <span class="tt1">TRACK, CANCEL, RETURN/EXCHANGE</span>
+              <span class="tt2">Manage your purchases</span>
+            </div>
+          </div>
+          <div>
+            <span>
+              <button class="trkbtn">ORDERS</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
     </div>
-
     <div id="grid1">
-
-        <div id="grid2">
-
-            <span class="sidetext">SELECT QUERY TYPE
-            </span>
-            <span class="sidetext1" style="color: #14cda8;">Order Related Queries<span class="material-icons-outlined">
-                    navigate_next
-                </span>
-            </span>
-            <span class="sidetext1">Non-order Related Issues<span class="material-icons-outlined">
-                    navigate_next
-                </span>
-            </span>
-            <span class="sidetext1">Recent Issues<span class="material-icons-outlined">
-                    navigate_next
-                </span>
-            </span>
-
-
-            <div class="hr"></div>
-            <span class="sidetext1">Frequently Asked Questions<span class="material-icons-outlined">
-                    navigate_next
-                </span>
-            </span>
-
-            <span class="sidetext2">Want to reach us old style? Here is our
-                 <small><a style="color:blue;text-decoration: none;cursor: pointer;">postal address</a></small>
+      <div id="grid2">
+        <span class="sidetext">SELECT QUERY TYPE </span>
+        <span class="sidetext1 qrycolr" >Order Related Queries <span class="material-icons-outlined"> navigate_next </span>
         </span>
-        </div>
-        <div id="content">
-            <div id="contentdiv">
-
-                <div id="contenttop">
-                    <div class="circles">X</div>
-                    <div id="ctopin">
-                        <span class="ctopmaintxt">Cancelled</span>
-                        <span class="ctopsmltxt">On Mon, 9 Aug as per your request.</span>
-                    </div>
-                </div>
-
-                <div class="product">
-                    <div class="pdiv">
-                        <div class="imdiv">
-                            <img width="53" height="70"
-                                src="https://assets.myntassets.com/assets/images/6870109/2018/12/26/9a9f26ff-3a30-4f4d-a0eb-f7892c8c4ad81545822173164-Maybelline-Instant-Age-Rewind-144-Caramel-Eraser-Dark-Circle-1.jpg"
-                                alt="">
-                        </div>
-                        <div class="pinfo">
-                            <div class="tt1">Maybelline</div>
-                            <div class="tt20">New York Instant Age Rewind Concealer - Caramel</div>
-                            <div class="tt20">Size: Onesize</div>
-                        </div>
-                    </div>
-                    <div><span class="material-icons-outlined">
-                            navigate_next
-                        </span></div>
-
-                </div>
-
-
-<div><h4>WHERE IS MY REFUND?</h4></div>
-<div class="hr"></div>
-<p class="tt20">jesteena, Refund of ₹ 341 is already initiated.</p>
-<p class="tt20">You can track the status of your refund anytime by going to item details page on My orders.</p>
-          
-
-<div class="hr"></div>
-
-<div><h4>Refund Details</h4></div>
-<hr>
-
-<div class="reftop">
-<span class="reftxt">Total Refund Amount</span>
-<span class="amt">
-    ₹341.00</span>
-</div>
-
-
-<div class="pricediv">
-   
-        <div >
-           <span style="font-weight: 600;">₹341.00</span>
-        </div>
-        <div class="pinfo">
-           
-            <div class="tt20">Added to UPI</div>
-            <div class="tt20"><small>Credited instantly</small></div>
-        </div>
-   
-    <div>
-        <img src="https://myntraweb.blob.core.windows.net/selfserveui/assets/svg/upi.svg" alt="">
-    </div>
-
-</div>
-
-<div class="iinfo">
-    <span class="material-icons" style="color: grey;margin-right: 10px;"> info
-    </span>
-    <p style="margin-right: 10px;" class="tt20">
-       Contact your bank with reference number 122112391874</p>
-</div>
-
-<div class="hr"></div>
-
-<div class="useful">
-<span class="tt20">Was this helpful?</span>
-<span class="thumbs">
-
-<span>👍</span>
-<span>👎</span>
-    
-</span>
-</div>
-
-<div class="hr"></div>
-
-<div class="lastdiv">
-<div id="paret1">
-    <div id="track1" style="border-right: 1px solid #eaeaec;">
-        <div class="t1">
-            <div style="padding:10px;">
-               
-
-                <i style="color:#929396;font-weight: 100;" class="fa fa-phone">
-                    
-                </i>
+        <span class="sidetext1">Non-order Related Issues <span class="material-icons-outlined"> navigate_next </span>
+        </span>
+        <span class="sidetext1">Recent Issues <span class="material-icons-outlined"> navigate_next </span>
+        </span>
+        <div class="hr"></div>
+        <span class="sidetext1">Frequently Asked Questions <span class="material-icons-outlined"> navigate_next </span>
+        </span>
+        <span class="sidetext2">Want to reach us old style? Here is our <small>
+            <a class="paddr">postal address</a>
+          </small>
+        </span>
+      </div>
+      <div id="content">
+        <div id="contentdiv">
+          <div id="contenttop">
+            <div class="circles">X</div>
+            <div id="ctopin">
+              <span class="ctopmaintxt">Cancelled</span>
+              <span class="ctopsmltxt">On Mon, 9 Aug as per your request.</span>
+            </div>
+          </div>
+          <div class="product">
+            <div class="pdiv">
+              <div class="imdiv">
+                <img width="53" height="70" src="./images/may.jpeg" alt="">
+              </div>
+              <div class="pinfo">
+                <div class="tt1">Maybelline</div>
+                <div class="tt20">New York Instant Age Rewind Concealer - Caramel</div>
+                <div class="tt20">Size: Onesize</div>
+              </div>
+            </div>
+            <div>
+              <span class="material-icons-outlined"> navigate_next </span>
+            </div>
+          </div>
+          <div>
+            <h4>WHERE IS MY REFUND?</h4>
+          </div>
+          <div class="hr"></div>
+          <p class="tt20">jesteena, Refund of ₹ 341 is already initiated.</p>
+          <p class="tt20">You can track the status of your refund anytime by going to item details page on My orders.</p>
+          <div class="hr"></div>
+          <div>
+            <h4>Refund Details</h4>
+          </div>
+          <hr>
+          <div class="reftop">
+            <span class="reftxt">Total Refund Amount</span>
+            <span class="amt"> ₹341.00</span>
+          </div>
+          <div class="pricediv">
+            <div>
+              <span class="pw">₹341.00</span>
+            </div>
+            <div class="pinfo">
+              <div class="tt20">Added to UPI</div>
+              <div class="tt20">
+                <small>Credited instantly</small>
+              </div>
+            </div>
+            <div>
+              <img src="./images/upi.svg" alt="">
+            </div>
+          </div>
+          <div class="iinfo">
+            <span class="material-icons spmi"> info </span>
+            <p  class="tt20 pcon"> Contact your bank with reference number 122112391874</p>
+          </div>
+          <div class="hr"></div>
+          <div class="useful">
+            <span class="tt20">Was this helpful?</span>
+            <span class="thumbs">
+              <span>👍</span>
+              <span>👎</span>
+            </span>
+          </div>
+          <div class="hr"></div>
+          <div class="lastdiv">
+            <div id="paret1">
+              <div id="track1" class="trbrdr">
+                <div class="t1">
+                  <div class="t1pad">
               
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="tracktext">
+                    <span class="tt1">Call Now</span>
+                    <span class="tt20">For a better experience, call from your registered number.</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="tracktext">
-                <span class="tt1">Call Now</span>
-                <span class="tt20">For a better experience, call from your registered number.</span>
+            <div id="paret2">
+              <div id="track2">
+                <div class="t1">
+                  <div class="t1pad">
+                    <i  class="fa fa-edit"></i>
+                  </div>
+                  <div class="tracktext">
+                    <span class="tt1">Write To Us</span>
+                    <span class="tt20">Average Response Time 24-48 Hrs</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        
+      </div>
     </div>
-</div>
-<div id="paret2">
-    <div  id="track2">
-        <div class="t1">
-            <div style="padding:10px;">
-                <i style="color:#929396;font-weight: 100; " class="fa fa-edit">
-                  
-                </i>
-
-            </div>
-            <div id="tracktext">
-                <span class="tt1">Write To Us</span>
-                <span class="tt20">Average Response Time 24-48 Hrs</span>
-            </div>
-        </div>
-       
-
-    </div>
-</div>
-</div>
-
-
-
-</div>
-
-
-        </div>
-    </div>
-
     <footer class="footer">
- 
-        <div class="row">
-          <div class="col">
-            <h4>online shopping</h4>
-            <ul>
-              <li><a href="#">men</a></li>
-              <li><a href="#">women</a></li>
-              <li><a href="#">Kids</a></li>
-              <li><a href="#">Home & living</a></li>
-              <li><a href="#">Beauty</a></li>
-              <li><a href="#">gift cards</a></li>
-              <li>
-                <a href="#">myntra insider <span  class="badge"><small>New</small></span> </a>
-              </li>
-            </ul>
+      <div class="row">
+        <div class="col">
+          <h4>ONLINE SHOPPING</h4>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li> <a href="#">myntra insider <span class="badge"><small>New</small></span> </a> </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>USEFUL LINKS</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">T&C</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Track Orders</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col1">
+          <h4>EXPERIENCE MYNTRA ON MOBILE APP</h4>
+          <a href=""><img src="./images/gp.png" alt="" /></a>
+          <a href=""><img src="./images/ps.png" alt="" /></a>
+          <h5>KEEP IN TOUCH</h5>
+          <div class="social-links"> 
+             <a href="#">
+              <i class="fab fa-facebook-square colr"></i>
+              </a>
+              <a href="#">
+              <i class="fab fa-twitter colr"></i>
+              </a>
+              <a href="#">
+              <i class="fab fa-instagram colr"></i>
+              </a>
+              <a href="#">
+              <i class="fab fa-youtube colr"></i>
+              </a>
           </div>
-          <div class="col">
-            <h4>useful links</h4>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">contact us</a></li>
-              <li><a href="#">returns</a></li>
-              <li><a href="#">track order</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </div>
-    
-          <div class="col">
-            <h4>experience myntra app on mobile</h4>
-            <a href=""
-              ><img
-                src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
-                alt=""
-            /></a>
-            <a href=""
-              ><img
-                src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
-                alt=""
-            /></a>
-            <h4>keep in touch</h4>
-            <div class="social-links">
-              <a href="#"><i class="fa fa-facebook-f"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="col1">
+          <div class="col-retn"> <img src="./images/ori.png" alt="" />
+            <div class="thrdcol">
+              <div><b class="cr">100% ORIGINAL</b> guarantee</div>
+              <div> for all products at myntra.com </div>
             </div>
           </div>
-    
-          <div class="col">
-            <div class="col-retn">
-              <img
-                src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
-                alt=""
-              />
-              <div>
-                <strong>100% ORIGINAL</strong>
-    
-                <span>guarantee for all products at myntra.com</span>
-              </div>
-            </div>
-    
-            <div class="col-retn">
-              <img
-                src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
-                alt=""
-              />
-              <div>
-                <strong>Return within 30days</strong>
-                <span>of receiving your order</span>
-              </div>
+          <div class="col-retn"> <img src="./images/ret.png" alt="" />
+            <div>
+              <div><b class="cr">Return within 30days</b> of</div>
+              <div> receiving your order</div>
             </div>
           </div>
         </div>
-     
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
